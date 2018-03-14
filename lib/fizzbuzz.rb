@@ -4,6 +4,8 @@ class Integer
       "fizz"
     elsif self == 5
       "buzz"
+    else
+      return self  
     end
   end
 end
